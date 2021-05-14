@@ -1274,18 +1274,18 @@ figcaption {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/overlay.png'), url('../images/tyler-nix-P1l7Ro3Fttk-unsplash.jpg');
+  background-image: url('../images/overlay.png'), url('../images/shopifyPhone.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: 10px, cover;
   background-repeat: repeat-x, no-repeat;
 }
 
 .intro-image._2 {
-  background-image: url('../images/overlay.png'), url('../images/screen-post-Ya3r7oApP4g-unsplash.jpg');
+  background-image: url('../images/overlay.png'), url('../images/codeImage.jpg');
 }
 
 .intro-image._3 {
-  background-image: url('../images/overlay.png'), url('../images/daily-nouri-dHPZ27-fbqE-unsplash-1.jpg');
+  background-image: url('../images/overlay.png'), url('../images/analytics.jpg');
 }
 
 .intro-text-link {
@@ -2710,7 +2710,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: url('../images/tyler-nix-P1l7Ro3Fttk-unsplash.jpg');
+  background-image: url('../images/shopifyPhone.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
