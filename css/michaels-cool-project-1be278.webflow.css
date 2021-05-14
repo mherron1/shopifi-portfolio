@@ -4771,8 +4771,8 @@ figcaption {
 }
 
 .absolute.hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/black.jpeg');
   background-position: 0px 0px, 100% 100%, 50% 80%;
   background-size: auto, auto, cover;
   background-repeat: repeat, repeat-x, no-repeat;
@@ -4780,8 +4780,8 @@ figcaption {
 
 .absolute.hero-about {
   height: 130%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/black.jpeg');
   background-position: 0px 0px, 100% 100%, 50% 80%;
   background-size: auto, auto, cover;
   background-repeat: repeat, repeat-x, no-repeat;
@@ -4789,8 +4789,8 @@ figcaption {
 
 .absolute.hero-inner {
   height: 135%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/black.jpeg');
   background-position: 0px 0px, 50% 60%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -4798,7 +4798,7 @@ figcaption {
 
 .absolute.blog {
   height: 130%;
-  background-image: url('../images/2kristaps-ungurs-SL6UH2mr_2o-unsplash-copia.jpg');
+  background-image: url('../images/black.jpeg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
