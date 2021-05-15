@@ -1281,7 +1281,7 @@ figcaption {
 }
 
 .intro-image._2 {
-  background-image: url('../images/overlay.png'), url('../images/codeImage');
+  background-image: url('../images/overlay.png'), url('../images/codeImage.jpg');
 }
 
 .intro-image._3 {
@@ -6591,16 +6591,15 @@ figcaption {
 }
 
 .projectItem{
-  height:450px;
-  width:500px;
+  max-width:450px;
   margin:10px;
   margin-bottom:80px;
   background-color: #d4d4d4;
   overflow: hidden;
+  border-radius: 20px;
  
 
 }
-
 
 .projectItem:hover{
   cursor:pointer;
@@ -6610,8 +6609,16 @@ figcaption {
 min-height:100%;
 transition: 0.4s ease;
 }
-
 .projectImage:hover{
 transform: scale(1.04);
 transition: 0.4s ease;
+}
+
+@media only screen and (max-width: 470px) {
+  .projectItem{
+  
+    max-width:450px;
+
+  
+  }
 }
