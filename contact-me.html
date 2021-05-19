@@ -102,26 +102,26 @@
             <div data-w-id="0c64d5e3-ace0-0486-aacc-4972a2683501" style="opacity:0" class="contact-left">
               <div class="sticky-bar">
                 <div class="top-margin _20-pixels">
-                  <h6 class="h6-small">Address</h6>
+                  <!--<h6 class="h6-small">Address</h6>
                   <div>
                     <p>Evergreen 27<br>San Francisco, CA<br>90210</p>
-                  </div>
+                  </div>-->
                 </div>
                 <div class="top-margin _30-pixels">
                   <h6 class="h6-small">Email</h6>
                   <div>
-                    <a href="#">support@website.com</a>
+                    <a href="#">contact@michaelherron.dev</a>
                     <div class="top-margin _10-pixels">
-                      <a href="#">business@website.com</a>
+                      <a href="#"></a>
                     </div>
                   </div>
                 </div>
                 <div class="top-margin _30-pixels">
                   <h6 class="h6-small">Phone</h6>
                   <div>
-                    <a href="#">800-234-567</a>
+                    <a href="#">+353 89 2583819</a>
                     <div class="top-margin _10-pixels">
-                      <a href="#">800-234-568</a>
+                      <a href="#"></a>
                     </div>
                   </div>
                 </div>
@@ -136,12 +136,21 @@
             <div data-w-id="2b9298a7-ce54-8eb8-cb39-af5a61e06bbd" style="opacity:0" class="expand">
               <h6 class="h6-small">Contact Form</h6>
               <div class="w-form">
-                <form data-name="Contact Form" name="wf-form-Contact-Form" class="form-flex"><input type="text" class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Your name" required=""><input type="text" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Your last name" class="input w-input"><input type="email" class="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="your@email.com" required=""><input type="tel" maxlength="256" name="Mobile" data-name="Mobile" placeholder="Mobile" class="input w-input"><select name="field" class="select-field w-select">
+                <form  action="https://mailthis.to/mhDev"
+                method="POST" encType="multipart/form-data" data-name="Contact Form" name="wf-form-Contact-Form" class="form-flex">
+                  
+                  <input type="text" class="input w-input" maxlength="256" name="name" placeholder="Your name" required="">
+                  <input type="text" maxlength="256" name="Last-Name"  placeholder="Your last name" class="input w-input">
+                  <input type="email" class="input w-input" maxlength="256" name="Email"  placeholder="your@email.com" required="">
+                  <input type="tel" maxlength="256" name="Mobile"  placeholder="Mobile" class="input w-input">
+                  <!--<select name="field" class="select-field w-select">
                     <option value="">How would you like to contacted?</option>
                     <option value="Contact by Mobile">Mobile</option>
                     <option value="Contact by Email">Email</option>
                     <option value="Contact by Zoom">Zoom</option>
-                  </select><textarea placeholder="Your message..." maxlength="5000" data-name="Message" name="Message" required="" class="textarea w-input"></textarea><input type="submit" value="Send!" data-wait="Please wait..." class="submit-button-form w-button"></form>
+                  </select>-->
+                  
+                  <textarea placeholder="Your message..." maxlength="5000" name="Message" required="" class="textarea w-input"></textarea><input type="submit" value="Send!" data-wait="Please wait..." class="submit-button-form w-button"></form>
                 <div class="success-message dark w-form-done"><img src="images/formas-y-simbolos.svg" loading="lazy" width="35" alt="">
                   <div class="top-margin _15-pixels">
                     <div>Thank you! Your submission has been received!</div>
