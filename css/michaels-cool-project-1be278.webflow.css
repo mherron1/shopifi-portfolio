@@ -2867,9 +2867,10 @@ figcaption {
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
+  -webkit-align-items: top;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: top;
+  max-height:500px;
 }
 
 .gallery-item-3 {
@@ -3110,7 +3111,6 @@ figcaption {
 
 .intro-icon {
   position: absolute;
-  color:#004aa9;
   left: 8%;
   top: 0%;
   right: auto;
@@ -6227,6 +6227,7 @@ figcaption {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
+
   }
 
   .gallery-item-3 {
@@ -6781,4 +6782,10 @@ p {
 
 a:link {
   text-decoration: none;
+}
+
+.videoContainer{
+  width:100%;
+  height:auto;
+
 }
