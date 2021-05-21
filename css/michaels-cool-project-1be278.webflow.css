@@ -1300,7 +1300,7 @@ figcaption {
   margin-top: -2px;
   margin-bottom: -2px;
   padding: 20px 25px 5px;
-  border-radius: 25px;
+  border-radius: 0px;
   background-color: #004aa9;
   text-decoration: none;
 }
@@ -3110,6 +3110,7 @@ figcaption {
 
 .intro-icon {
   position: absolute;
+  color:#004aa9;
   left: 8%;
   top: 0%;
   right: auto;
@@ -6761,4 +6762,23 @@ p {
     margin: auto;
   }
 
+}
+
+#moreProjectsButton{
+  margin-left:60px;
+  transform: translateY(-30px);
+  color:#ed4133;
+
+
+}
+
+
+#moreProjectsButton:hover{
+  cursor:pointer;
+  filter:brightness(125%);
+
+}
+
+a:link {
+  text-decoration: none;
 }
