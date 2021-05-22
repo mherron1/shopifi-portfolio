@@ -6819,6 +6819,14 @@ a:link {
  height:90vh;
   }
 
+  #moreProjectsButton{
+    margin-left:20px;
+    transform: translateY(-40px);
+    color:#ed4133;
+  
+  
+  }
+
 }
 
 
