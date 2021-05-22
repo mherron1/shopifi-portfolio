@@ -6661,7 +6661,7 @@ transition: 0.4s ease;
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 0px;
 }
 ::-webkit-scrollbar-thumb {
   background: none; 
