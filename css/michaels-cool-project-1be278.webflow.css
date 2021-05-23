@@ -5495,7 +5495,7 @@ figcaption {
 
   .nav-menu {
     overflow: auto;
-    height: 40vh;
+    height: 100vh;
     padding-bottom: 240px;
   }
 
@@ -6831,6 +6831,7 @@ a:link {
   }
 
   #moreProjectsButton{
+    font-weight:0.9rem;
     margin-top:50px;
     margin-left:20px;
     transform: translateY(-40px);
