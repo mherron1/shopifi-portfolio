@@ -41,7 +41,10 @@
 
 
 <body>
+
+
   <div style="opacity:0" class="content">
+ 
     <div class="preloader"><img src="images/Eclipse-1s-200px.gif" width="71" alt=""></div>
     <div class="navigation">
       <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="f935dcf6-1dd8-b97d-098e-7a97f57cc9db" role="banner" class="navbar w-nav">
@@ -80,6 +83,7 @@
 
     <div style="opacity:0;-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="on-load">
       <div id="Top" class="hero-section hero-section-index">
+        <div class="myName">michaelherron.dev</div>
         <a href="#About-Me" data-w-id="becb6430-3651-be6d-400f-9e45c9e08564" style="opacity:0;-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="scroll-down w-inline-block"><img src="images/descarga-arrow.svg" loading="lazy" width="23" alt="Arrow" class="arrow-down"></a>
         <div style="opacity:0" class="hero-bg">
           <div data-w-id="d0f7d0a9-6b00-cbbb-e067-70ebf334b7f1" class="absolute hero"></div>
@@ -93,7 +97,9 @@
             <div class="_73-percent-column" style="margin: auto;">
               <div style="opacity:0;-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="on-load-4">
                 <div class="top-margin _20-pixels">
-                  <p class="subtitle gray">Horizon CMS is a Portfolio Webflow Template where you showcase.</p>
+                  <p class="subtitle gray">Hi, I'm Michael, a professional Web Developer Specializing in the Shopify Platform.</p>
+            
+    
                 </div>
               </div>
            
@@ -372,7 +378,7 @@
               </div>
               <div class="projectItem">
               <img class="projectImage" src="images/galaxyBoxBlack.jpg">
-                <div class="demoButton">View Demo</div>
+                <div class="demoButton2">View Demo</div>
                 </div>
             </div>
 
@@ -683,12 +689,26 @@
   <div class="video-popup">
     <div class="popup-bg"></div>
       <div class="popup-content">
-        <p class="popup-title">Store Demo</p>
+        <p class="popup-title"></p>
         <div id="myIframe">
-         
+          <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>
         </div>
        
         <button class="close-btn button-outline w-button">close</button>
+      
+      </div>
+  </div>
+
+  <div class="video-popup2">
+    <div class="popup-bg2"></div>
+      <div class="popup-content2">
+        <p class="popup-title"></p>
+        <div id="myIframe2">
+          <iframe src="https://youtube.com/embed/2tdiKTSdE9Y?autoplay=1" class="video" allowfullscreen></iframe>
+          
+        </div>
+       
+        <button class="close-btn2 button-outline w-button">close</button>
       
       </div>
   </div>
@@ -697,8 +717,6 @@
     $(document).ready(function(){
   
   $('.demoButton').on('click', function(){
-    document.querySelector('#myIframe').innerHTML = `
-     <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>`;
     $('.video-popup').fadeIn('normal');
     return false;
   });
@@ -713,6 +731,29 @@
      document.querySelector('#myIframe').innerHTML = "";
      document.querySelector('#myIframe').innerHTML = `
      <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>`;
+
+      return false;
+   });
+  
+});
+
+$(document).ready(function(){
+  
+  $('.demoButton2').on('click', function(){
+    $('.video-popup2').fadeIn('normal');
+    return false;
+  });
+  
+  $('.popup-bg2').on('click', function(){
+    $('.video-popup2').slideUp('fast');
+    return false;
+  });
+  
+   $('.close-btn2').on('click', function(){
+     $('.video-popup2').fadeOut('fast');
+     document.querySelector('#myIframe2').innerHTML = "";
+     document.querySelector('#myIframe2').innerHTML = `
+     <iframe src="https://youtube.com/embed/2tdiKTSdE9Y?autoplay=1" class="video" allowfullscreen></iframe>`;
 
       return false;
    });
