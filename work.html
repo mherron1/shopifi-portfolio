@@ -37,11 +37,11 @@
               <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"></a>
             </div>
             <div class="nav-column right">
-              <a href="index.html" aria-current="page" class="navlink w-inline-block w--current">
+              <a href="index.html" data-w-id="f2d5a26e-29d5-3ff9-83ce-e5b0999640ba" class="navlink w-inline-block " style = "color:white;">
                 <div>Home</div>
                 <div class="underline-hover mobile-hide"></div>
               </a>
-              <a href="work.html" data-w-id="f2d5a26e-29d5-3ff9-83ce-e5b0999640ba" class="navlink w-inline-block">
+              <a href="work.html" aria-current="page" class="navlink w-inline-block w--current" style = "color:#ed4133;">
                 <div>Works</div>
                 <div class="underline-hover mobile-hide"></div>
               </a>
@@ -90,7 +90,7 @@
               </div>
               <div class="projectItem">
               <img class="projectImage" src="images/galaxyBoxBlack.jpg">
-                <div class="demoButton">View Demo</div>
+                <div class="demoButton2">View Demo</div>
                 </div>
             </div>
           </div>
@@ -153,9 +153,26 @@
   <div class="video-popup">
     <div class="popup-bg"></div>
       <div class="popup-content">
-        <p class="popup-title">Store Demo</p>
-        <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>
+        <p class="popup-title"></p>
+        <div id="myIframe">
+          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
+        </div>
+       
         <button class="close-btn button-outline w-button">close</button>
+      
+      </div>
+  </div>
+
+  <div class="video-popup2">
+    <div class="popup-bg2"></div>
+      <div class="popup-content2">
+        <p class="popup-title"></p>
+        <div id="myIframe2">
+          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
+          
+        </div>
+       
+        <button class="close-btn2 button-outline w-button">close</button>
       
       </div>
   </div>
@@ -175,10 +192,41 @@
   
    $('.close-btn').on('click', function(){
      $('.video-popup').fadeOut('fast');
+     document.querySelector('#myIframe').innerHTML = "";
+     document.querySelector('#myIframe').innerHTML = `
+     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
+
       return false;
    });
   
 });
+
+$(document).ready(function(){
+  
+  $('.demoButton2').on('click', function(){
+    $('.video-popup2').fadeIn('normal');
+    return false;
+  });
+  
+  $('.popup-bg2').on('click', function(){
+    $('.video-popup2').slideUp('fast');
+    return false;
+  });
+  
+   $('.close-btn2').on('click', function(){
+     $('.video-popup2').fadeOut('fast');
+     document.querySelector('#myIframe2').innerHTML = "";
+     document.querySelector('#myIframe2').innerHTML = `
+     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
+
+      return false;
+   });
+  
+});
+
+
+
+
   </script>
 
 </body>
