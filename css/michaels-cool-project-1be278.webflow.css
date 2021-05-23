@@ -90,7 +90,7 @@ h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 36px;
   line-height: 1.05;
   font-weight: 600;
@@ -101,7 +101,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 34px;
   line-height: 1.05;
   font-weight: 600;
@@ -112,7 +112,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 32px;
   line-height: 1.05;
   font-weight: 600;
@@ -123,7 +123,7 @@ h4 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 30px;
   line-height: 1.05;
   font-weight: 600;
@@ -134,7 +134,7 @@ h5 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 28px;
   line-height: 1.05;
   font-weight: 600;
@@ -145,7 +145,7 @@ h6 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 26px;
   line-height: 1.05;
   font-weight: 600;
@@ -581,7 +581,7 @@ figcaption {
   overflow: hidden;
   padding-top: 70px;
   padding-bottom: 20px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .newsletter-container {
@@ -634,7 +634,7 @@ figcaption {
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .footer-container {
@@ -1301,7 +1301,7 @@ figcaption {
   margin-bottom: -2px;
   padding: 20px 25px 5px;
   border-radius: 0px;
-  background-color: #004aa9;
+  background-color: #282828;
   text-decoration: none;
 }
 
@@ -1381,7 +1381,7 @@ figcaption {
 
 .big-text {
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 34px;
   font-weight: 600;
   letter-spacing: -3px;
@@ -1497,7 +1497,7 @@ figcaption {
   max-width: 1285px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 ._44-percent-column {
@@ -2085,7 +2085,7 @@ figcaption {
   right: 0%;
   bottom: 0%;
   height: 265px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .narrow-wrapper-flex {
@@ -2169,7 +2169,7 @@ figcaption {
 
 .client-name {
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 36px;
   font-weight: 600;
   letter-spacing: -3px;
@@ -2268,7 +2268,7 @@ figcaption {
 .descripton-title {
   margin-bottom: 3px;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: -2px;
@@ -2321,7 +2321,7 @@ figcaption {
 .price-text {
   display: inline-block;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 44px;
   font-weight: 600;
   letter-spacing: -3px;
@@ -2462,7 +2462,7 @@ figcaption {
 
 .question {
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -2px;
@@ -2763,7 +2763,7 @@ figcaption {
 }
 
 .category:hover {
-  color: #004aa9;
+  color: #282828;
 }
 
 .newsletter-bottom-blue {
@@ -2773,7 +2773,7 @@ figcaption {
   right: 0%;
   bottom: 0%;
   height: 420px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .footer-newsletter {
@@ -3566,7 +3566,7 @@ figcaption {
   margin-left: auto;
   padding-top: 65px;
   padding-bottom: 65px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .left-column {
@@ -3711,7 +3711,7 @@ figcaption {
   margin-left: auto;
   padding-top: 65px;
   padding-bottom: 80px;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .pen-holder {
@@ -3826,7 +3826,7 @@ figcaption {
 
 .category-link:hover {
   opacity: 0.85;
-  color: #004aa9;
+  color: #282828;
 }
 
 .category-link.yellow {
@@ -3837,7 +3837,7 @@ figcaption {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   font-family: Inter, sans-serif;
-  color: #004aa9;
+  color: #282828;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -2px;
@@ -4323,7 +4323,7 @@ figcaption {
 }
 
 .category-link-medium:hover {
-  color: #004aa9;
+  color: #282828;
 }
 
 .utility-page-wrap {
@@ -4423,7 +4423,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #004aa9;
+  background-color: #282828;
 }
 
 .hero-post-link {
@@ -4446,7 +4446,7 @@ figcaption {
   padding-top: 12px;
   padding-bottom: 50px;
   padding-left: 2%;
-  border: 1px solid #004aa9;
+  border: 1px solid #282828;
   border-radius: 2.5px;
   background-color: transparent;
   -webkit-transition: border-color 200ms ease;
@@ -4521,7 +4521,7 @@ figcaption {
   height: 50px;
   margin-bottom: 30px;
   padding-left: 2%;
-  border: 1px solid #004aa9;
+  border: 1px solid #282828;
   border-radius: 2.5px;
   background-color: transparent;
   -webkit-transition: border-color 200ms ease;
@@ -4557,7 +4557,7 @@ figcaption {
   height: 50px;
   margin-bottom: 30px;
   padding-left: 2%;
-  border: 1px solid #004aa9;
+  border: 1px solid #282828;
   border-radius: 2.5px;
   background-color: transparent;
   -webkit-transition: border-color 200ms ease;
@@ -4849,11 +4849,11 @@ figcaption {
   }
 
   .bottom-blue {
-    background-color: #004aa9;
+    background-color: #282828;
   }
 
   .newsletter-bottom-blue {
-    background-color: #004aa9;
+    background-color: #282828;
   }
 }
 
@@ -4967,7 +4967,7 @@ figcaption {
   }
 
   .nav-menu {
-    background-color: #004aa9;
+    background-color: #282828;
   }
 
   .nav-column-center {
@@ -4981,7 +4981,7 @@ figcaption {
   }
 
   .menu-button.w--open {
-    background-color: #004aa9;
+    background-color: #282828;
     color: #fff;
   }
 
@@ -6642,7 +6642,7 @@ transition: 0.4s ease;
     border-width: 1px;
     border-color: transparent;
     border-radius: 25px;
-    background-color: #004aa9;;
+    background-color: #282828;;
     -webkit-transition: color 200ms ease, background-color 200ms ease;
     transition: color 200ms ease, background-color 200ms ease;
     font-family: Inter, sans-serif;
