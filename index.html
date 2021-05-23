@@ -209,14 +209,14 @@
         </div>
       </div>
     </div>-->
-    <div id="About-Me" class="content-section double">
+    <div id="About-Me" class="content-section double" style = "padding-bottom:150px;">
       <div class="content-wrapper w-container">
         <div class="flex">
           <div data-w-id="b2bc15d7-cebb-e544-d2af-e3e6661c0ad4" style="opacity:0" class="half-column-vertical">
             <div class="max-495-pixels">
               <div class="_66-percent-column">
                 <div class="left-padding">
-                  <h2 class="h2-big no-top-margin">Services Available<br></h2>
+                  <h2 class="h2-big no-top-margin">Services<br></h2>
                 </div>
               </div>
               <div class="top-margin _40-pixels">
@@ -344,7 +344,7 @@
         </div>
       </div>
     </div>
-    <div id="Experience" class="content-section double" style = "padding-top:50px; padding-bottom:0px;">
+    <div id="Experience" class="content-section double" style = "padding-top:50px; padding-bottom:0px; background-color: #f8f8f8;">
       <div data-w-id="b7592c79-be6a-fc3e-ac19-57820a055c77" style="opacity:0" class="content-wrapper w-container">
         <div class="narrow-wrapper-flex">
           <div class="max-1000-pixels">
@@ -359,7 +359,7 @@
       </div>
   
 
-    <div id="Intro" class="section-visible" style="padding-top:0px;">
+    <div id="Intro" class="section-visible" style="padding-top:0px; background-color: #f8f8f8;">
       <div data-w-id="66220627-8e0e-d1bd-dfb7-a9fe4f16a3b8" style="opacity:1" class="content-wrapper w-container">
         <div class="narrow-wrapper">
 
@@ -684,7 +684,10 @@
     <div class="popup-bg"></div>
       <div class="popup-content">
         <p class="popup-title">Store Demo</p>
-        <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>
+        <div id="myIframe">
+         
+        </div>
+       
         <button class="close-btn button-outline w-button">close</button>
       
       </div>
@@ -694,6 +697,8 @@
     $(document).ready(function(){
   
   $('.demoButton').on('click', function(){
+    document.querySelector('#myIframe').innerHTML = `
+     <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>`;
     $('.video-popup').fadeIn('normal');
     return false;
   });
@@ -705,13 +710,16 @@
   
    $('.close-btn').on('click', function(){
      $('.video-popup').fadeOut('fast');
+     document.querySelector('#myIframe').innerHTML = "";
+     document.querySelector('#myIframe').innerHTML = `
+     <iframe src="https://youtube.com/embed/gQojMIhELvM?autoplay=1" class="video" allowfullscreen></iframe>`;
+
       return false;
    });
   
 });
 
 
-</script>
 
 
   </script>
