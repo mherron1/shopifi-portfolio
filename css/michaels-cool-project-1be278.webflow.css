@@ -6629,15 +6629,13 @@ transition: 0.4s ease;
   z-index:1;
 }
 
-.myName2{
-  position:absolute;
-  top:25px;
-  left:20px;
-  font-size:1.2rem;
-  color:#d6d6d6;
-  background-color: transparent;
-  z-index:1;
+@media only screen and (max-width: 1000px) {
+  .myName{
+display:none;
+  }
 }
+
+
 
 @media only screen and (max-width: 470px) {
   .projectItem{
@@ -6647,6 +6645,7 @@ transition: 0.4s ease;
   
   }
 }
+
 
 
 
@@ -6823,21 +6822,11 @@ a:link {
   }
 
 
-
-  .myName{
-    display:none
-  }
-
-
 }
 
 @media only screen and (max-width: 580px) {
   .hero-section-index{
  height:90vh;
-  }
-
-  .myName2{
-    display:none
   }
 
   #moreProjectsButton{
