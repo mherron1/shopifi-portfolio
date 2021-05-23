@@ -6750,6 +6750,7 @@ p {
 @media only screen and (max-width: 792px) {
 
   .popup-content,.popup-content2 {
+    position:fixed;
     background: transparent;
     padding:0px;
     border-radius:0px;
@@ -6830,6 +6831,7 @@ a:link {
   }
 
   #moreProjectsButton{
+    margin-top:50px;
     margin-left:20px;
     transform: translateY(-40px);
     color:#ed4133;
