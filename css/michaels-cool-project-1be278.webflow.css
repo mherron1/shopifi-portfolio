@@ -6776,6 +6776,7 @@ p {
 
 #moreProjectsButton{
   margin-left:60px;
+  
   transform: translateY(-30px);
   color:#ed4133;
 
@@ -6785,7 +6786,7 @@ p {
 
 #moreProjectsButton:hover{
   cursor:pointer;
-  filter:brightness(125%);
+  color:#242424;
 
 }
 
