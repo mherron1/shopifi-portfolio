@@ -6700,7 +6700,7 @@ p {
 }
 .popup-btn, .close-btn,.popup-btn2, .close-btn2  {
   width: 100px;
-  height: 50px;
+  height: 45px;
   display: block;
   margin: 50px auto;
   cursor: pointer; 
