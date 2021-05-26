@@ -22,6 +22,22 @@
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/favicon.png" rel="apple-touch-icon">
+
+  <script>
+    window.onload = function() {
+        var anchors = document.getElementsByTagName('*');
+        for(var i = 0; i < anchors.length; i++) {
+            var anchor = anchors[i];
+            anchor.onclick = function() {
+                code = this.getAttribute('whenClicked');
+                eval(code);   
+            }
+        }
+    }
+
+</script>
+
+
 </head>
 <body>
   <div style="opacity:0" class="content">
@@ -87,12 +103,12 @@
             <div id="projectGridContainer">
               <div class="projectItem">
                 <img class="projectImage" src="images/collage.jpg">
-                <div class="demoButton">View Demo</div>
+                <div class="demoButton"   whenClicked="showVideo(0)">View Demo</div> 
                 
               </div>
               <div class="projectItem">
               <img class="projectImage" src="images/galaxyBoxBlack.jpg">
-                <div class="demoButton2">View Demo</div>
+              <div class="demoButton"   whenClicked="showVideo(1)">View Demo</div> 
                 </div>
             </div>
 
@@ -100,12 +116,12 @@
 
               <div class="projectItem">
                 <img class="projectImage" src="images/preview_collage.jpg">
-                <div class="demoButton">View Demo</div> 
+                <div class="demoButton"   whenClicked="showVideo(2)">View Demo</div> 
               </div>
 
-              <div class="projectItem" style = "visibility: hidden;">
+              <div class="projectItem" id="hideProject" style = "visibility: hidden;">
                 <img class="projectImage" src="images/galaxyBoxBlack.jpg">
-                <div class="demoButton2">View Demo</div>
+                <div class="demoButton"   whenClicked="showVideo(3)">View Demo</div> 
               </div>
 
 
@@ -173,32 +189,30 @@
       <div class="popup-content">
         <p class="popup-title"></p>
         <div id="myIframe">
-          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
+
         </div>
        
         <button class="close-btn button-outline w-button">close</button>
       
       </div>
-  </div>
+  </div>s
 
-  <div class="video-popup2">
-    <div class="popup-bg2"></div>
-      <div class="popup-content2">
-        <p class="popup-title"></p>
-        <div id="myIframe2">
-          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
-          
-        </div>
-       
-        <button class="close-btn2 button-outline w-button">close</button>
-      
-      </div>
-  </div>
 
   <script>
-    $(document).ready(function(){
+
+let videos = ["XazZSe2qzWM", "RDzsrmMl48I", "EFkyxzJtiv4"]
+
+function showVideo(vidNum){
+
+  let vid = videos[vidNum]
+
+  document.querySelector('#myIframe').innerHTML = `
+     <iframe src="https://youtube.com/embed/${vid}?autoplay=1" class="video" allowfullscreen></iframe>`;
+
   
-  $('.demoButton').on('click', function(){
+
+  $(document).ready(function(){
+  
     $('.video-popup').fadeIn('normal');
     return false;
   });
@@ -212,35 +226,12 @@
      $('.video-popup').fadeOut('fast');
      document.querySelector('#myIframe').innerHTML = "";
      document.querySelector('#myIframe').innerHTML = `
-     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
+     <iframe src="https://youtube.com/embed/${vid}?autoplay=1" class="video" allowfullscreen></iframe>`;
 
       return false;
    });
   
-});
-
-$(document).ready(function(){
-  
-  $('.demoButton2').on('click', function(){
-    $('.video-popup2').fadeIn('normal');
-    return false;
-  });
-  
-  $('.popup-bg2').on('click', function(){
-    $('.video-popup2').slideUp('fast');
-    return false;
-  });
-  
-   $('.close-btn2').on('click', function(){
-     $('.video-popup2').fadeOut('fast');
-     document.querySelector('#myIframe2').innerHTML = "";
-     document.querySelector('#myIframe2').innerHTML = `
-     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
-
-      return false;
-   });
-  
-});
+}
 
 
 

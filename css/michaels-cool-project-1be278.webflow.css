@@ -1174,9 +1174,9 @@ figcaption {
 }
 
 .hero-text {
-  margin-top: 20px;
+  margin-top: 0px;
   color: #fff;
-  font-size: 44px;
+  font-size: 66px;
   line-height: 1.05;
   text-transform: uppercase;
 }
@@ -4922,7 +4922,7 @@ figcaption {
   }
 
   .navlink:hover {
-    background-color: #464646;
+    background-color: #01459c;
   }
 
   .content-wrapper {
@@ -5495,7 +5495,7 @@ figcaption {
 
   .nav-menu {
     overflow: auto;
-    height: 100vh;
+    height: 40vh;
     padding-bottom: 240px;
   }
 
@@ -6620,19 +6620,9 @@ transition: 0.4s ease;
 }
 
 .myName{
-  position:absolute;
-  top:25px;
-  left:20px;
-  font-size:1.2rem;
-  color:#d6d6d6;
-  background-color: transparent;
-  z-index:1;
-}
-
-@media only screen and (max-width: 1000px) {
-  .myName{
-display:none;
-  }
+  margin:20px;
+  font-size:25px;
+  color:white;
 }
 
 
@@ -6641,15 +6631,14 @@ display:none;
   .projectItem{
   
     max-width:450px;
-    margin:25px;
+
   
   }
 }
 
 
 
-
-.demoButton,.demoButton2 {
+.demoButton{
   position:absolute;
   z-index:10;
   bottom:50px;
@@ -6675,7 +6664,7 @@ display:none;
     text-transform: uppercase;
 }
 
-.demoButton:hover,.demoButton2:hover{
+.demoButton:hover{
   background-color: #ed4133;
   color: white;
 }
@@ -6687,31 +6676,28 @@ display:none;
   background: none; 
   border-radius: 5px;
 }
-p {
-  text-align: center;
-}
 
-.video, .video2 {
+.video {
   width: 100%;
   height:428px;
   margin: auto;
   display: block;
   border: none;
 }
-.popup-btn, .close-btn,.popup-btn2, .close-btn2  {
+.popup-btn, .close-btn {
   width: 100px;
-  height: 45px;
+  height: 50px;
   display: block;
   margin: 50px auto;
   cursor: pointer; 
   border: 2px solid black;
   background-color: white;
 }
-.popup-btn:hover,.popup-btn2:hover {
+.popup-btn:hover {
   color: white;
   background-color: black;
 }
-.video-popup,.video-popup2 {
+.video-popup {
   display: none;
   width: 100%;
   height: 100vh;
@@ -6721,15 +6707,15 @@ p {
   box-shadow: 10px 10px 10px 10px black;
   z-index:100;
 }
-.popup-bg,.popup-bg2 {
-  background: rgba(0, 0, 0, 0.883);
+.popup-bg {
+  background: rgba(0, 0, 0, 0.438);
   width: 100%;
   height: 100vh;
   position: absolute;
 }
-.popup-content,.popup-content2 {
-  background: rgba(0, 0, 0, 0);
-  padding:20px;
+.popup-content {
+  background: rgba(0, 0, 0, 0.425);
+  padding:5px;
   border-radius:0px;
   position: absolute;
   top: 50%;
@@ -6739,44 +6725,61 @@ p {
   height: auto;
   
 }
-.popup-title,.popup-title {
-  padding: 30px;
-  margin: 0 auto;
+.popup-title {
+  padding:100px;
+  margin: auto;
   color: white;
   text-transform: uppercase;
 }
 
 
-@media only screen and (max-width: 792px) {
 
-  .popup-content,.popup-content2 {
-    position:fixed;
-    background: transparent;
-    padding:0px;
-    border-radius:0px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    max-width:98%;
-    height: auto;
-    
+
+
+@media only screen and (max-width: 792px) {
+  .myName{
+display:none;
   }
 
+  #hideProject{
+    display:none;
+  }
 
+  
+    .popup-content {
+      background: rgba(0, 0, 0, 0.712);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100vh;
+  }
+  .video-popup {
+    display: none;
+    width: 100%;
+    margin:auto;
+    position: fixed;
+    top: 0;
+    box-shadow: 10px 10px 10px 10px black;
+    z-index:100;
+  }
+  .popup-bg{
+    max-width:100%;
+  }
   .video{
+    width:100%;
     max-width:400px;
-    height: 27vh;
+    height:30vh;
+    
+   
     margin: auto;
   }
-
 
 }
 
 #moreProjectsButton{
   margin-left:60px;
-  
   transform: translateY(-30px);
   color:#ed4133;
 
@@ -6786,7 +6789,7 @@ p {
 
 #moreProjectsButton:hover{
   cursor:pointer;
-  color:#242424;
+  filter:brightness(125%);
 
 }
 
@@ -6813,11 +6816,9 @@ a:link {
   border: none;
 }
 
-
-
 @media only screen and (min-width: 580px) {
   .responsive-iframe{
-    max-height: 280px;
+    max-height: 290px;
     max-width: 480px;
     margin-left:50%;
     transform:translateX(-50%);
@@ -6832,8 +6833,6 @@ a:link {
   }
 
   #moreProjectsButton{
-    font-weight:0.9rem;
-    margin-top:50px;
     margin-left:20px;
     transform: translateY(-40px);
     color:#ed4133;
@@ -6876,4 +6875,7 @@ a:link {
   }
 
 }
+
+
+
 

@@ -377,12 +377,12 @@
 
               <div class="projectItem">
                 <img class="projectImage" src="images/collage.jpg">
-                <div class="demoButton">View Demo</div> 
+                <div class="demoButton"   whenClicked="showVideo(0)">View Demo</div> 
               </div>
 
               <div class="projectItem">
                 <img class="projectImage" src="images/preview_collage.jpg">
-                <div class="demoButton">View Demo</div> 
+                <div class="demoButton"   whenClicked="showVideo(1)">View Demo</div> 
               </div>
 
 
@@ -698,7 +698,7 @@
       <div class="popup-content">
         <p class="popup-title"></p>
         <div id="myIframe">
-          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
+
         </div>
        
         <button class="close-btn button-outline w-button">close</button>
@@ -706,26 +706,21 @@
       </div>
   </div>
 
-  <div class="video-popup2">
-    <div class="popup-bg2"></div>
-      <div class="popup-content2">
-        <p class="popup-title"></p>
-        <div id="myIframe2">
-          <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>
-          
-        </div>
-       
-        <button class="close-btn2 button-outline w-button">close</button>
-      
-      </div>
-  </div>
-
   <script>
 
+    let videos = ["XazZSe2qzWM", "RDzsrmMl48I"]
 
-    $(document).ready(function(){
+function showVideo(vidNum){
+
+  let vid = videos[vidNum]
+
+  document.querySelector('#myIframe').innerHTML = `
+     <iframe src="https://youtube.com/embed/${vid}?autoplay=1" class="video" allowfullscreen></iframe>`;
+
   
-  $('.demoButton').on('click', function(){
+
+  $(document).ready(function(){
+  
     $('.video-popup').fadeIn('normal');
     return false;
   });
@@ -739,35 +734,13 @@
      $('.video-popup').fadeOut('fast');
      document.querySelector('#myIframe').innerHTML = "";
      document.querySelector('#myIframe').innerHTML = `
-     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
+     <iframe src="https://youtube.com/embed/${vid}?autoplay=1" class="video" allowfullscreen></iframe>`;
 
       return false;
    });
   
-});
+}
 
-$(document).ready(function(){
-  
-  $('.demoButton2').on('click', function(){
-    $('.video-popup2').fadeIn('normal');
-    return false;
-  });
-  
-  $('.popup-bg2').on('click', function(){
-    $('.video-popup2').slideUp('fast');
-    return false;
-  });
-  
-   $('.close-btn2').on('click', function(){
-     $('.video-popup2').fadeOut('fast');
-     document.querySelector('#myIframe2').innerHTML = "";
-     document.querySelector('#myIframe2').innerHTML = `
-     <iframe src="https://youtube.com/embed/XazZSe2qzWM?autoplay=1" class="video" allowfullscreen></iframe>`;
-
-      return false;
-   });
-  
-});
 
 
 
