@@ -426,7 +426,7 @@ figcaption {
   padding-right: 6px;
   padding-left: 6px;
   font-family: Inter, sans-serif;
-  color: #f7f7f7;
+  color: #ed4133;;
   font-size: 15px;
   line-height: 27px;
   font-weight: 600;
@@ -954,7 +954,7 @@ figcaption {
   margin-left: auto;
   padding-right: 35px;
   padding-left: 35px;
-  background-color: transparent;
+  background-color: #181818;
 }
 
 .nav-column {
@@ -1096,7 +1096,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #151515;
+  background-color: transparent;
 }
 
 .hero-section.about-me {
@@ -1158,7 +1158,7 @@ figcaption {
 }
 
 .hero-bg.inner-pages {
-  background-image: url('../images/kristaps-ungurs-SL6UH2mr_2o-unsplash-10.49.25.jpg');
+
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1175,7 +1175,7 @@ figcaption {
 
 .hero-text {
   margin-top: 0px;
-  color: #fff;
+  color: #000;
   font-size: 66px;
   line-height: 1.05;
   text-transform: uppercase;
@@ -1275,18 +1275,18 @@ figcaption {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/overlay.png'), url('../images/shopifyPhone.jpg');
+  background-image: url('../images/'), url('../images/shopifyPhone.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: 10px, cover;
   background-repeat: repeat-x, no-repeat;
 }
 
 .intro-image._2 {
-  background-image: url('../images/overlay.png'), url('../images/codeImage.jpg');
+  background-image: url('../images/'), url('../images/codeImage.jpg');
 }
 
 .intro-image._3 {
-  background-image: url('../images/overlay.png'), url('../images/analytics.jpg');
+  background-image: url('../images/'), url('../images/analytics.jpg');
 }
 
 .intro-text-link {
@@ -2744,7 +2744,7 @@ figcaption {
   right: 0%;
   bottom: 0%;
   height: 85%;
-  background-image: url('../images/overlay.png');
+  background-image: url('../images/');
   background-position: 50% 100%;
   background-size: contain;
   background-repeat: repeat-x;
@@ -2871,7 +2871,7 @@ figcaption {
   -webkit-align-items: top;
   -ms-flex-align: center;
   align-items: top;
-  max-height:500px;
+  height:600px;
 }
 
 .gallery-item-3 {
@@ -3171,8 +3171,8 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/overlay.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/overlay.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/');
   background-position: 0px 0px, 0px 0px;
 }
 
@@ -4235,7 +4235,7 @@ figcaption {
 .hero-text-small {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #000;
   font-size: 60px;
   line-height: 1.05;
   text-transform: none;
@@ -4424,7 +4424,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #282828;
+  background-color: #181818;
 }
 
 .hero-post-link {
@@ -4751,7 +4751,7 @@ figcaption {
 .absolute {
   position: absolute;
   left: 0px;
-  top: -70px;
+  top: -200px;
   right: 0px;
   bottom: 0px;
   width: 100%;
@@ -4773,8 +4773,8 @@ figcaption {
 }
 
 .absolute.hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/black.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/black.jpeg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgba(0, 0, 0, 0.0))), url('../images/'), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/'), url('../images/black.jpeg');
   background-position: 0px 0px, 100% 100%, 50% 80%;
   background-size: auto, auto, cover;
   background-repeat: repeat, repeat-x, no-repeat;
@@ -4782,17 +4782,17 @@ figcaption {
 
 .absolute.hero-about {
   height: 130%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/overlay.png'), url('../images/black.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/overlay.png'), url('../images/black.jpeg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgba(0, 0, 0, 0.0))), url('../images/'), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/'), url('../images/black.jpeg');
   background-position: 0px 0px, 100% 100%, 50% 80%;
   background-size: auto, auto, cover;
   background-repeat: repeat, repeat-x, no-repeat;
 }
 
 .absolute.hero-inner {
-  height: 135%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/black.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/black.jpeg');
+  height: 5015px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0)), to(rgba(0, 0, 0, 0.0))), url('../images/black.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/black.jpeg');
   background-position: 0px 0px, 50% 60%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -4968,7 +4968,7 @@ figcaption {
   }
 
   .nav-menu {
-    background-color: #282828;
+    background-color: #111111;
   }
 
   .nav-column-center {
@@ -6622,7 +6622,7 @@ transition: 0.4s ease;
 .myName{
   margin:20px;
   font-size:25px;
-  color:white;
+  color:rgb(212, 212, 212);
 }
 
 
@@ -6818,13 +6818,14 @@ a:link {
   right: 0;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 2px solid black;
+  border-radius:15px;
 }
 
 @media only screen and (min-width: 580px) {
   .responsive-iframe{
-    max-height: 290px;
-    max-width: 480px;
+    max-height: 305px;
+    max-width: 539px;
     margin-left:50%;
     transform:translateX(-50%);
   }
