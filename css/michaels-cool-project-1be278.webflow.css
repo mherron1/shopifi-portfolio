@@ -5495,7 +5495,7 @@ figcaption {
 
   .nav-menu {
     overflow: auto;
-    height: 40vh;
+    height: 100vh;
     padding-bottom: 240px;
   }
 
