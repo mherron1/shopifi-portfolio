@@ -6715,7 +6715,7 @@ transition: 0.4s ease;
 }
 .popup-content {
   background: rgba(0, 0, 0, 0);
-  padding:5px;
+  padding:10px;
   border-radius:0px;
   position: absolute;
   top: 50%;
@@ -6747,7 +6747,7 @@ display:none;
 
   
     .popup-content {
-      background: rgba(0, 0, 0, 0.712);
+      background: rgba(0, 0, 0, 0.171);
       position: absolute;
       top: 50%;
       left: 50%;
@@ -6768,6 +6768,7 @@ display:none;
     max-width:100%;
   }
   .video{
+   
     width:100%;
     max-width:400px;
     height:30vh;
