@@ -6651,11 +6651,11 @@ transition: 0.4s ease;
     border-width: 1px;
     border-color: transparent;
     border-radius: 25px;
-    background-color: #282828;;
+    background-color: white;
     -webkit-transition: color 200ms ease, background-color 200ms ease;
     transition: color 200ms ease, background-color 200ms ease;
     font-family: Inter, sans-serif;
-    color: white;
+    color: black;
     font-size: 13px;
     line-height: 14px;
     font-weight: 600;
@@ -6678,20 +6678,23 @@ transition: 0.4s ease;
 }
 
 .video {
-  width: 100%;
-  height:428px;
+  width: 97%;
+  height:427px;
   margin: auto;
   display: block;
   border: none;
+  border-radius:10px;
 }
 .popup-btn, .close-btn {
   width: 100px;
-  height: 50px;
+  height: 45px;
   display: block;
   margin: 50px auto;
+  border-radius: 25px;
   cursor: pointer; 
-  border: 2px solid black;
+  border: 0px solid black;
   background-color: white;
+  color:black;
 }
 .popup-btn:hover {
   color: white;
@@ -6718,7 +6721,7 @@ transition: 0.4s ease;
   padding:10px;
   border-radius:0px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 800px;
@@ -6754,6 +6757,7 @@ display:none;
       transform: translate(-50%, -50%);
       width: 100%;
       height: 100vh;
+      padding:0px;
   }
   .video-popup {
     display: none;
@@ -6772,9 +6776,9 @@ display:none;
     width:100%;
     max-width:400px;
     height:30vh;
-    
-   
     margin: auto;
+    border: none;
+    border-radius:0px;
   }
 
 }
@@ -6876,7 +6880,5 @@ a:link {
   }
 
 }
-
-
 
 
