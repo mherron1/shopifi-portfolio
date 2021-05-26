@@ -6883,3 +6883,24 @@ a:link {
 }
 
 
+.profilePic{
+  position:absolute;
+  left:0px;
+  top:20px;
+  max-width:350px;
+  border-radius:50%;
+  border:5px solid black;
+  z-index:1000;
+}
+
+@media only screen and (max-width: 790px) {
+  .profilePic{
+    position:absolute;
+    left:-100px;
+    top:20px;
+    max-width:250px;
+    border-radius:50%;
+    border:3px solid rgb(255, 255, 255);
+    z-index:1000;
+  }
+}
