@@ -4530,7 +4530,7 @@ figcaption {
 }
 
 .input:hover {
-  border-color: #1a8ef7;
+  border-color: #d1d1d1;
 }
 
 .input::-webkit-input-placeholder {
@@ -4566,7 +4566,7 @@ figcaption {
 }
 
 .select-field:hover {
-  border-color: #1a8ef7;
+  border-color: #c5c5c5;
 }
 
 .contact-left {
@@ -4921,7 +4921,7 @@ figcaption {
   }
 
   .navlink:hover {
-    background-color: #01459c;
+    background-color: #585858;
   }
 
   .content-wrapper {
@@ -5496,6 +5496,7 @@ figcaption {
     overflow: auto;
     height: 100vh;
     padding-bottom: 240px;
+    background-color:rgba(0, 0, 0, 0.911);
   }
 
   .social-icon {
