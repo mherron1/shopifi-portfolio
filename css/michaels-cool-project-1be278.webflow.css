@@ -609,15 +609,13 @@ figcaption {
   min-height: 42px;
   min-width: 120px;
   padding: 14px 30px 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ed4133;
+
   border-radius: 25px;
-  background-color: transparent;
+  background-color: #ed4133;
   -webkit-transition: color 200ms ease, background-color 200ms ease;
   transition: color 200ms ease, background-color 200ms ease;
   font-family: Inter, sans-serif;
-  color: #ed4133;
+  color: white;
   font-size: 13px;
   line-height: 14px;
   font-weight: 600;
@@ -627,8 +625,9 @@ figcaption {
 }
 
 .button-outline:hover {
-  background-color: #ed4133;
-  color: #fff;
+  background-color: #ffffff;
+  color: black;
+  border:none;
 }
 
 .blue {
@@ -954,7 +953,7 @@ figcaption {
   margin-left: auto;
   padding-right: 35px;
   padding-left: 35px;
-  background-color: #181818;
+  background-color: #242424;
 }
 
 .nav-column {
@@ -4424,7 +4423,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #181818;
+  background-color: #242424;
 }
 
 .hero-post-link {
