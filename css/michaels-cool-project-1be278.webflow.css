@@ -6899,6 +6899,7 @@ a:link {
   max-width:250px;
   z-index:1000;
   transform:scale(1.25);
+  background-color: black;
   display:none;
 }
 
