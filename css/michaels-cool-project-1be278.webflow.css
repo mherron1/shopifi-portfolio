@@ -1084,7 +1084,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   max-width: 1285px;
-  min-height: 850px;
+  min-height: 875px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
@@ -2870,7 +2870,7 @@ figcaption {
   -webkit-align-items: top;
   -ms-flex-align: center;
   align-items: top;
-  height:600px;
+  height:700px;
 }
 
 .gallery-item-3 {
@@ -6887,20 +6887,52 @@ a:link {
   position:absolute;
   left:0px;
   top:20px;
-  max-width:350px;
+  max-width:290px;
   border-radius:50%;
-  border:5px solid black;
+  border:3px solid rgba(0, 0, 0, 0.055);
   z-index:1000;
+}
+
+.shopifyLogo{
+  max-width:250px;
+  z-index:1000;
+  margin-bottom: 40px;
+}
+
+.shopifyLogoFooter{
+position:absolute;
+top:0;
+left:75px;
+max-width:250px;
+z-index:1000;
+
 }
 
 @media only screen and (max-width: 790px) {
   .profilePic{
     position:absolute;
     left:-100px;
-    top:20px;
+    top:30px;
     max-width:250px;
     border-radius:50%;
-    border:3px solid rgb(255, 255, 255);
     z-index:1000;
+    border:none;
   }
+
+  .shopifyLogoFooter{
+     left:unset;
+     right:20px;
+     width:150px;
+     top:50px;
+    }
+
+    .half-column-image {
+
+      height:550px;
+    }
+
+    .footer{
+      padding:0px;
+
+    }
 }
