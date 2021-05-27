@@ -6847,7 +6847,7 @@ a:link {
   }
   .go-up-button {
     position: fixed;
-    left: 0px;
+    right: 0px;
     bottom: 0px;
     z-index: 20;
     display: -webkit-box;
