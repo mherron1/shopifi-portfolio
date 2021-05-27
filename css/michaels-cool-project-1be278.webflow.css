@@ -6894,7 +6894,7 @@ a:link {
 }
 #buttonProfile{
   position:absolute;
-  left:45px;
+  left:35px;
   top:400px;
   max-width:250px;
   z-index:1000;
@@ -6902,6 +6902,12 @@ a:link {
   background-color: #222222;
   border-radius:0%;
   display:none;
+}
+#buttonProfile:hover{
+
+  background-color: white;
+  color:black;
+
 }
 
 
