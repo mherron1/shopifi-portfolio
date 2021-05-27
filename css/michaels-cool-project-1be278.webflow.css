@@ -6909,6 +6909,18 @@ a:link {
   color:black;
 
 }
+#buttonProfile:focus{
+
+  background-color: white;
+  color:black;
+
+}
+#buttonProfile:active{
+
+  background-color: white;
+  color:black;
+
+}
 
 
 
