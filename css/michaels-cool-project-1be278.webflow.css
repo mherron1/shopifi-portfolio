@@ -6890,36 +6890,39 @@ a:link {
   top:20px;
   max-width:290px;
   border-radius:50%;
-  border:2px solid rgba(0, 0, 0, 0.685);
+  border:1px solid rgba(0, 0, 0, 0.685);
   z-index:1000;
 }
 #buttonProfile{
   position:absolute;
-  left:35px;
-  top:400px;
+  left:135px;
+  top:475px;
   max-width:250px;
   z-index:1000;
   transform:scale(1.25);
   background-color: #222222;
   border-radius:0%;
-  display:none;
+  display:block;
 }
 #buttonProfile:hover{
 
-  background-color: white;
-  color:black;
+  background-color: #ed4133;
+  color:white;
+
 
 }
 #buttonProfile:focus{
 
-  background-color: white;
-  color:black;
+  background-color: #ed4133;
+  color:white;
+
 
 }
 #buttonProfile:active{
 
-  background-color: white;
-  color:black;
+  background-color: #ed4133;
+  color:white;
+
 
 }
 
@@ -6956,6 +6959,14 @@ z-index:1000;
     border:none;
   }
   #buttonProfile{
+    position:absolute;
+    left:35px;
+    top:400px;
+    max-width:250px;
+    z-index:1000;
+    transform:scale(1.25);
+    background-color: #222222;
+    border-radius:0%;
     display:block;
   }
 
