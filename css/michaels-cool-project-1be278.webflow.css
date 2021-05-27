@@ -6940,6 +6940,10 @@ z-index:1000;
 }
 
 @media only screen and (max-width: 790px) {
+  .half-column-vertical{
+      height:100vh;
+  }
+
   .profilePic{
     position:absolute;
     left:-100px;
