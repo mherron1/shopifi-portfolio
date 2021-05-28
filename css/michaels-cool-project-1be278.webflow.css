@@ -6592,9 +6592,11 @@ figcaption {
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
+ 
 }
 
 .projectItem{
+ 
   position:relative;
   max-width:450px;
   margin:10px;
@@ -6605,6 +6607,24 @@ figcaption {
  
 
 }
+
+.projectDescription{
+  position:absolute;
+  top:2%;
+  width:50%;
+  left:50%;
+  transform:translateX(-50%);
+  background-color: #f3f3f3;
+  padding:12px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size:20px;
+
+
+  
+}
+
+
 
 .projectItem:hover{
   cursor:pointer;
@@ -6740,6 +6760,20 @@ transition: 0.4s ease;
 
 
 @media only screen and (max-width: 792px) {
+
+  .projectDescription{
+    position:absolute;
+    top:0%;
+    width:110%;
+
+    background-color: #242424;
+    padding:8px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:18px;
+    
+  }
+
   .myName{
 display:none;
   }
