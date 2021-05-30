@@ -6850,10 +6850,10 @@ a:link {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 100%;
+  width: 95%;
   height: 100%;
-  border: 2px solid black;
-  border-radius:15px;
+
+  
 }
 
 @media only screen and (min-width: 580px) {
