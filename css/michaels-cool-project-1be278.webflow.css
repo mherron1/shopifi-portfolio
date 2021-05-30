@@ -6862,8 +6862,6 @@ a:link {
   .responsive-iframe{
     max-height: 305px;
     max-width: 539px;
-    margin-left:50%;
-    transform:translateX(-50%);
   }
 
 
