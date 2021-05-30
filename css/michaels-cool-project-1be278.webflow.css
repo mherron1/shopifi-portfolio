@@ -6869,7 +6869,7 @@ a:link {
 
 @media only screen and (max-width: 580px) {
 
-  @media only screen and (min-width: 580px) {
+ 
 
 
   .hero-section-index{
@@ -6997,6 +6997,7 @@ z-index:1000;
     z-index:1000;
     border:none;
   }
+
   #buttonProfile{
     position:absolute;
     left:35px;
